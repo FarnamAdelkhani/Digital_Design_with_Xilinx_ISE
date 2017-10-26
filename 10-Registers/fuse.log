@@ -1,0 +1,35 @@
+Running: C:\Xilinx\12.1\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/.Xilinx/lab10/lab10_4_lab10_4_sch_tb_isim_beh.exe -prj C:/.Xilinx/lab10/lab10_4_lab10_4_sch_tb_beh.prj work.lab10_4_lab10_4_sch_tb 
+ISim M.53d (signature 0xb869381d)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/.Xilinx/lab10/lab10_4.vhf" into library work
+Parsing VHDL file "C:/.Xilinx/lab10/lab10_4.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 97756 KB
+Fuse CPU Usage: 327 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package numeric_std from library ieee
+Compiling package vcomponents
+Compiling architecture inv_v of entity inv [inv_default]
+Compiling architecture and2b1_v of entity and2b1 [and2b1_default]
+Compiling architecture or2_v of entity or2 [or2_default]
+Compiling architecture and2_v of entity and2 [and2_default]
+Compiling architecture behavioral of entity m2_1_mxilinx_lab10_4 [m2_1_mxilinx_lab10_4_default]
+Compiling architecture gnd_v of entity gnd [gnd_default]
+Compiling architecture fdcp_v of entity fdcp [\FDCP('0')\]
+Compiling architecture behavioral of entity fdc_mxilinx_lab10_4 [\FDC_MXILINX_lab10_4('0')\]
+Compiling architecture behavioral of entity x74_194_mxilinx_lab10_4 [x74_194_mxilinx_lab10_4_default]
+Compiling architecture nor4_v of entity nor4 [nor4_default]
+Compiling architecture or4_v of entity or4 [or4_default]
+Compiling architecture behavioral of entity nor7_mxilinx_lab10_4 [nor7_mxilinx_lab10_4_default]
+Compiling architecture behavioral of entity lab10_4 [lab10_4_default]
+Compiling architecture behavioral of entity lab10_4_lab10_4_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 12 sub-compilation(s) to finish...
+Compiled 31 VHDL Units
+Built simulation executable C:/.Xilinx/lab10/lab10_4_lab10_4_sch_tb_isim_beh.exe
+Fuse Memory Usage: 106700 KB
+Fuse CPU Usage: 467 ms

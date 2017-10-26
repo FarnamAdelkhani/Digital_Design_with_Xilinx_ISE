@@ -1,0 +1,54 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 12.1
+//  \   \         Application : sch2hdl
+//  /   /         Filename : lab7fa.vf
+// /___/   /\     Timestamp : 03/03/2015 11:23:54
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family xa9500xl -verilog C:/Users/User_Account/lab7/lab7fa.vf -w C:/Users/User_Account/lab7/lab7fa.sch
+//Design Name: lab7fa
+//Device: xa9500xl
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module lab7fa(a0, 
+              b0, 
+              c0, 
+              c1, 
+              s0);
+
+    input a0;
+    input b0;
+    input c0;
+   output c1;
+   output s0;
+   
+   wire XLXN_29;
+   wire XLXN_30;
+   wire XLXN_56;
+   
+   XOR2 XLXI_1 (.I0(a0), 
+                .I1(b0), 
+                .O(XLXN_56));
+   XOR2 XLXI_2 (.I0(c0), 
+                .I1(XLXN_56), 
+                .O(s0));
+   NAND2 XLXI_7 (.I0(XLXN_56), 
+                 .I1(c0), 
+                 .O(XLXN_30));
+   NAND2 XLXI_8 (.I0(a0), 
+                 .I1(b0), 
+                 .O(XLXN_29));
+   NAND2 XLXI_9 (.I0(XLXN_29), 
+                 .I1(XLXN_30), 
+                 .O(c1));
+endmodule

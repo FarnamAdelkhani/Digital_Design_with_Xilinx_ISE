@@ -1,0 +1,46 @@
+(ExpressProject "lab7"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\lab7.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\USERS\FARNAM\DESKTOP\lab7.dsn")
+      (Path "Design Resources" "C:\USERS\FARNAM\DESKTOP\lab7.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "C:\USERS\FARNAM\DESKTOP\lab7.dsn"
+         "Design Cache")
+      (Select "Design Resources" "C:\USERS\FARNAM\DESKTOP\lab7.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -36 0 200 0 520"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -9 -36 90 1694 90 655")
+        (Scroll "-394 -6")
+        (Zoom "105")
+        (Occurrence "/"))
+      (Path "C:\USERS\FARNAM\DESKTOP\LAB7.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

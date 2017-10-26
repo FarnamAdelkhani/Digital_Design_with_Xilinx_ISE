@@ -1,0 +1,10 @@
+Command line:
+   lab10_4_lab10_4_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49436
+
+Tue Apr 28 12:19:11 2015
+
+
+ Elaboration Time: 0.0624 sec

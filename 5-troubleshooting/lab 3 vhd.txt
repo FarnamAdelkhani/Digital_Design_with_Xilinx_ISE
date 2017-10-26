@@ -1,0 +1,73 @@
+-- Vhdl test bench created from schematic C:\Xilinx_test\lab3\test_sch.sch - Tue Feb 10 11:02:42 2015
+--
+-- Notes: 
+-- 1) This testbench template has been automatically generated using types
+-- std_logic and std_logic_vector for the ports of the unit under test.
+-- Xilinx recommends that these types always be used for the top-level
+-- I/O of a design in order to guarantee that the testbench will bind
+-- correctly to the timing (post-route) simulation model.
+-- 2) To use this template as your testbench, change the filename to any
+-- name of your choice with the extension .vhd, and use the "Source->Add"
+-- menu in Project Navigator to import the testbench. Then
+-- edit the user defined section below, adding code to generate the 
+-- stimulus for your design.
+--
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
+LIBRARY UNISIM;
+USE UNISIM.Vcomponents.ALL;
+ENTITY test_sch_test_sch_sch_tb IS
+END test_sch_test_sch_sch_tb;
+ARCHITECTURE behavioral OF test_sch_test_sch_sch_tb IS 
+
+   COMPONENT test_sch
+   PORT( X	:	IN	STD_LOGIC; 
+          Y	:	IN	STD_LOGIC; 
+          F1	:	OUT	STD_LOGIC; 
+          F2	:	OUT	STD_LOGIC; 
+          F3	:	OUT	STD_LOGIC; 
+          F4	:	OUT	STD_LOGIC);
+   END COMPONENT;
+
+   SIGNAL X	:	STD_LOGIC;
+   SIGNAL Y	:	STD_LOGIC;
+   SIGNAL F1	:	STD_LOGIC;
+   SIGNAL F2	:	STD_LOGIC;
+   SIGNAL F3	:	STD_LOGIC;
+   SIGNAL F4	:	STD_LOGIC;
+
+BEGIN
+
+   UUT: test_sch PORT MAP(
+		X => X, 
+		Y => Y, 
+		F1 => F1, 
+		F2 => F2, 
+		F3 => F3, 
+		F4 => F4
+   );
+
+-- *** Test Bench - User Defined Section ***
+   tb : PROCESS
+   BEGIN
+	x <='0';
+	y <='0';
+	wait for 10ns;
+	
+	x <='0';
+	y <='1';
+	wait for 10ns;
+	
+	x <='1';
+	y <='0';
+	wait for 10ns;
+	
+	x <='1';
+	y <='1';
+	wait for 10ns;
+	 
+   END PROCESS;
+-- *** End Test Bench - User Defined Section ***
+
+END;

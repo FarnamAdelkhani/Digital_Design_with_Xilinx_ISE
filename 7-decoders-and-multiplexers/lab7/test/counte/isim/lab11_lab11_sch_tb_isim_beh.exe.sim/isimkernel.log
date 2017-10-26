@@ -1,0 +1,10 @@
+Command line:
+   lab11_lab11_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49174
+
+Tue May 05 12:09:41 2015
+
+
+ Elaboration Time: 0.078 sec

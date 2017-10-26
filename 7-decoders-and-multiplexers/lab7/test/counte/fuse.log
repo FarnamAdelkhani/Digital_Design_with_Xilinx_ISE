@@ -1,0 +1,32 @@
+Running: C:\Xilinx\12.1\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/User_Account/Desktop/test/counte/lab11_lab11_sch_tb_isim_beh.exe -prj C:/Users/User_Account/Desktop/test/counte/lab11_lab11_sch_tb_beh.prj work.lab11_lab11_sch_tb 
+ISim M.53d (signature 0xb869381d)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/User_Account/Desktop/test/counte/lab11.vhf" into library work
+Parsing VHDL file "C:/Users/User_Account/Desktop/test/counte/lab11_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 100800 KB
+Fuse CPU Usage: 343 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package numeric_std from library ieee
+Compiling package vcomponents
+Compiling architecture gnd_v of entity gnd [gnd_default]
+Compiling architecture fdcp_v of entity fdcp [\FDCP('0')\]
+Compiling architecture behavioral of entity fdc_mxilinx_lab11 [\FDC_MXILINX_lab11('0')\]
+Compiling architecture and3b2_v of entity and3b2 [and3b2_default]
+Compiling architecture and3b1_v of entity and3b1 [and3b1_default]
+Compiling architecture or3_v of entity or3 [or3_default]
+Compiling architecture and2b1_v of entity and2b1 [and2b1_default]
+Compiling architecture behavioral of entity fjkc_mxilinx_lab11 [\FJKC_MXILINX_lab11('0')\]
+Compiling architecture and2_v of entity and2 [and2_default]
+Compiling architecture behavioral of entity lab11 [lab11_default]
+Compiling architecture behavioral of entity lab11_lab11_sch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 9 sub-compilation(s) to finish...
+Compiled 25 VHDL Units
+Built simulation executable C:/Users/User_Account/Desktop/test/counte/lab11_lab11_sch_tb_isim_beh.exe
+Fuse Memory Usage: 109744 KB
+Fuse CPU Usage: 498 ms
